@@ -15,3 +15,7 @@ spec:
     - containerPort: 80
 
 # copy a file to another and name it : cp file1 the-name-of-file2
+
+# kubectl get pods , will only return from same namespace -n name-of-namespace, is the way to look in desired namespace.
+
+#change config to work in other namespace : k config set-context --current --namespace=mealie
