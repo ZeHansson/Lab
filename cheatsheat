@@ -1,0 +1,17 @@
+# Dry run to file:
+ k run nginx --image=nginx --dry-run=client -o yaml > nginx.yaml
+
+# Can change pastemode to ensure yaml formating is not changed ":set paste"
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+
+# copy a file to another and name it : cp file1 the-name-of-file2
