@@ -19,3 +19,11 @@ spec:
 # kubectl get pods , will only return from same namespace -n name-of-namespace, is the way to look in desired namespace.
 
 #change config to work in other namespace : k config set-context --current --namespace=mealie
+
+#TMUX
+# Open new fan : ctrl + b -> shift 1..9
+# Navigate : ctrl + b, arrow keys
+# close window : ctrl b -> d (delete)
+
+
+
